@@ -1,0 +1,21 @@
+# Build artifacts produced by Makefile/go build
+bin/
+build/
+dist/
+
+# Test binaries and other generated executables
+*.test
+*.out
+*.exe
+
+# Go caches and coverage data
+.gocache/
+coverage.*
+*.coverprofile
+*.prof
+
+# Local tooling junk
+.DS_Store
+.idea/
+.vscode/
+*.log
